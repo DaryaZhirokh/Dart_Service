@@ -197,22 +197,24 @@
       <div class="contacts"><!-- contacts -->
         <h2>Contact Us</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-        <div class="personalInfo">
-        <label><input type="text" name="userName" value="First Name" class="personalData"></label>
-        <label><input type="text" name="userLastName" value="Last Name" class="personalData"></label>
-      </div>
-      <div class="personalInfo">
-        <label><input type="email" name="userEmail" value="Email" class="personalData"></label>
-        <label><input type="tel" name="userTel" value="Phone" class="personalData"></label>
-      </div>
-        <label class="messageLabel"><input type="text" name="userMessage" value="Message" class="message" ></label>
-        <section class="subscribeButton">
-          <div>
-            <input type="checkbox" id = "sub" name="userCheck"  placeholder="subscribe to the newsletter">
-            <label for="sub">subscribe to the newsletter</label>
+        <form>
+          <div class="personalInfo">
+            <label><input type="text" name="userName" value="First Name" class="personalData"></label>
+            <label><input type="text" name="userLastName" value="Last Name" class="personalData"></label>
           </div>
-          <button class="sendLabel">Send</button>
-        </section>
+          <div class="personalInfo">
+            <label><input type="email" name="userEmail" value="Email" class="personalData"></label>
+            <label><input type="tel" name="userTel" value="Phone" class="personalData"></label>
+          </div>
+          <label class="messageLabel"><input type="text" name="userMessage" value="Message" class="message" ></label>
+          <section class="subscribeButton">
+            <div>
+              <input type="checkbox" id = "sub" name="userCheck"  placeholder="subscribe to the newsletter">
+              <label for="sub">subscribe to the newsletter</label>
+            </div>
+            <button class="sendLabel">Send</button>
+          </section>
+        </form>
       </div><!-- contacts -->
 
       <footer>
@@ -221,7 +223,7 @@
             <img src="images/Shape.png" alt="logotype">
             <p class="logoTitle">DART <br>  SERVICE MANAGER</p>
           </div>
-          <nav  class="navagation">
+          <nav  class="footerNavagation">
             <a href="">Home</a>
             <a href="">Service</a>
             <a href="">Extension</a>

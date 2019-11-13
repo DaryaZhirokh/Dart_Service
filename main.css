@@ -784,7 +784,7 @@ footer {
   list-style-type: none;
 }
 
-@media only screen  and (max-width: 1224px) {
+/* @media only screen  and (max-width: 1224px) {
 
   .offer h1 {
     font-size: 45px;
@@ -847,9 +847,9 @@ footer {
     margin-bottom: 5%;
   }
 
-/*   .facts div {
+.facts div {
   margin-left: 40%;
-} */
+}
 
   .facts {
     display: block;
@@ -918,7 +918,7 @@ footer {
   .feedbacks {
     margin-bottom: 5%;
   }
-}
+} */
 
 @media only screen and (min-width : 320px) and (max-width : 480px) {
  .lowerNav li {
@@ -974,6 +974,8 @@ footer {
     margin: 5%;
     background-color: transparent;
     color: white;
+    line-height: 11px;
+    font-size: 10px;
   }
 
   .offer button:active, .offer button:focus {
@@ -984,7 +986,6 @@ footer {
   video {
     width: 250px;
     height: 200px;
-    margin: 5%;
   }
 
   .video {
@@ -1192,6 +1193,168 @@ footer {
     margin-left: 5%;
     text-align: justify;
     margin-right: 5%;
+  }
+
+  .feedbackUpArrow, .feedbackDownArrow {
+    margin-bottom: 5%;
+  }
+
+  .ourTeam h2 {
+    font-size: 30px;
+    margin-top: 5%;
+    margin-bottom: 0;
+  }
+
+  .ourTeam p {
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: justify;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .ourTeam {
+    margin: 5%;
+  }
+
+  .teamGallery {
+    display: block;
+    text-align: center;
+  }
+
+  .sophie {
+    margin: 5%;
+  }
+
+  .ourTeam h3 {
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 5%;
+    margin-bottom: 0;
+  }
+
+  .contacts {
+    height: 100%;
+    width: 100%;
+    background-color: #fafafa;
+    display: block;
+  }
+
+  .contacts h2 {
+    font-size: 30px;
+    margin-bottom: 0;
+    padding-top: 5%;
+  }
+
+  .contacts p {
+    width: auto;
+    height: auto;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: justify;
+    margin: 5%;
+  }
+
+  .personalInfo {
+    width: 250px;
+    height: 60px;
+    display: block;
+    margin: 0;
+  }
+
+  .personalInfo input {
+    border: 1px solid #061e37;;
+    min-width: auto;
+    min-height: auto;
+    margin: 0;
+    margin-bottom: 5%;
+    width: 235px;
+    margin-left: 5%;
+  }
+
+  .personalInfo:first-of-type {
+    margin: 0;
+    margin-bottom: 11%;
+  }
+
+  .personalInfo label {
+    min-width: auto;
+    min-height: auto;
+    border: none;
+    margin: 0;
+    background-color: transparent;
+  }
+
+  .message {
+    min-width: auto;
+    margin-top: 11%;
+    height: auto;
+    width: 236px;
+    margin-left: 4%;
+    padding-left: 5%;
+  }
+
+  .messageLabel {
+    min-width: auto;
+    min-height: auto;
+    border: none;
+    margin: 0;
+    background-color: transparent;
+  }
+
+  .subscribeButton {
+    display: block;
+    width: auto;
+    margin: 5%;
+    text-align: center;
+    padding-bottom: 5%;
+  }
+
+  .subscribeButton div {
+    justify-content: center;
+    height: auto;
+  }
+
+  .subscribeButton input {
+    margin: 0;
+  }
+
+  .footerUpperMenu {
+    display: block;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-top: 5%;
+  }
+
+  .footerNavagation {
+    display: block;
+  }
+
+  .footerNavagation a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 1%;
+  }
+
+  .lowerMenu {
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    align-items: flex-start;
+  }
+
+  .lowerNav a {
+    margin-right: 10%;
+    line-height: 20px;
+  }
+
+  .teamIcons {
+    margin-top: 10%;
   }
 
 }
