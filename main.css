@@ -1,0 +1,1197 @@
+@font-face{
+
+  font-family: 'Raleway-Regular';
+  src: url('fonts/Raleway-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.wrapper {
+  margin: 0;
+  padding: 0;
+  font-family: Raleway-Regular;
+  overflow-x: hidden !important;
+}
+
+.mainPage {
+  background: url(images/ColorFill1.jpg) no-repeat;
+  min-height: 750px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding-top: 52px;
+  z-index: 2;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 30px;
+  height: 30px;
+  margin-right: 9px;
+}
+
+.logoTitle {
+  font-size: 15px;
+  line-height: 15px;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.navagation {
+  display: flex;
+  min-width: 445px;
+  justify-content: space-between;
+}
+
+.navagation a {
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.navagation a:active, nav a:hover{
+  color: #07293f;
+}
+
+
+button {
+  font-size: 12px;
+  line-height: 25px;
+  color: #ffffff;
+  font-weight: 400;
+  background-color: transparent;
+  width: 80px;
+  height: 25px;
+  border-radius: 2px;
+  border: 1px solid #ffffff;
+}
+button:active {
+  border: 1px solid #ffffff;
+}
+
+button: focus-within {
+  border: 1px solid #ffffff;
+}
+
+.offer {
+  height: 321px;
+  width: 591px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.offer h1 {
+  font-size: 55px;
+  line-height: 65px;
+  color: #ffffff;
+  font-weight: 800;
+  margin: 0;
+}
+
+.offer p {
+/*   width: 591px; */
+  height: 85px;
+  font-size: 18px;
+  line-height: 35px;
+  font-weight: 400;
+  color: #ffffff;
+  margin: 0;
+}
+
+.offer div {
+  display: flex;
+}
+
+.offer button {
+  width: 160px;
+  height: 55px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 5px rgba(0,0,0,0.15);
+  background-color: #ffffff;
+  color: #061e37;
+  margin-right: 25px;
+  margin-top: 1%;
+
+}
+
+.offer button:active, .offer button:focus {
+  width: 150px;
+  height: 55px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 5px rgba(0,0,0,0.15);
+  background-color: #061e37;
+  color: #ffffff;
+  border-color: #061e37;
+  outline: none;
+}
+
+.aboutUs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 135px;
+
+}
+
+.video {
+  width: 601px;
+  height: 321px;
+
+}
+
+/*
+@media all and (max-width: 1200px) {
+
+.offer h1 {
+  font-size: 40px;
+} */
+
+
+/* advantages */
+
+.advantages {
+  min-height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.advantagesTitle {
+  width: 555px;
+  margin-bottom: 25px;
+  margin-top: 100px
+}
+
+.advantages h2{
+  margin: 0;
+  font-size: 45px;
+  color: #061e37;
+  font-weight: 600;
+  text-align: center;
+}
+
+.projectManagementTool {
+  font-size: 25px;
+  color: #b0bec5;
+  font-weight: 600;
+  text-align: center;
+}
+
+.pmtext {
+  width: 565px;
+  height: 63px;
+  font-size: 15px;
+  line-height: 25px;
+  color: #b0bec5;
+  font-weight: 400;
+  text-align: center;
+}
+
+.pros {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.pros div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: 344px;
+  margin-right: 5%;
+  margin-left: 5%;
+  max-height: 210px;
+  margin-top: 95px;
+
+}
+
+.pros div p{
+  text-align: center;
+}
+
+.advantages img {
+  width: 68px;
+  height: 70x;
+}
+
+.getStartedButton {
+  width: 150px;
+  height: 55px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 5px rgba(0,0,0,0.15);
+  background-color: #1de9b6;
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 700;
+  margin-top: 77px;
+  margin-bottom: 7% ;
+}
+
+.getStartedButton:focus {
+  outline: none;
+}
+
+.facts {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.facts div {
+  width: 61px;
+  height: 61px;
+  border-radius: 50%;
+  z-index: 2;
+  background-color: white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.facts img {
+  position: absolute;
+}
+
+.business, .downloads, .installs, .proUsers {
+  min-width: 400px;
+  min-height: 151px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.business {
+  background-color: #80d8ff;
+}
+
+.downloads{
+  background-color: #82b1ff;
+}
+
+.installs {
+  background-color: #b388ff;
+}
+
+.proUsers{
+  background-color: #ea80fc;
+}
+
+.facts p {
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+  font-weight: 800;
+  margin-left: 23px;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.services h2 {
+  font-size: 45px;
+  color: #061e37;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+
+.services_title_text {
+  width: 565px;
+  height: 37px;
+  font-size: 15px;
+  line-height: 25px;
+  color: #b0bec5;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.serviceInfo {
+  border-radius: 5px;
+  box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  height: 240px;
+  margin-top: 45px;
+}
+
+.serviceTitle {
+  width: 800px;
+  min-height: 50px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.13);
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feed {
+  margin-bottom: 100px;
+  width: 800px;
+  min-height: 50px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.13);
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.serviceTitle:not(:first-child) {
+  margin-bottom: 20px;
+}
+
+.statisticsTitle {
+  font-size: 11px;
+  color: #061e37;
+  font-weight: 700;
+  text-align: center;
+  margin-right: 80%;
+}
+
+.serviceLogo {
+  margin-left: 25px;
+  height: 11px;
+}
+
+.serviceArrow {
+  margin-right: 25px;
+  height: 11px;
+}
+
+.serviceContent {
+  display: flex;
+}
+
+.serviceContent img{
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+.serviceContentText {
+  width: 475px;
+  height: 139px;
+  margin-top: 25px;
+}
+
+.serviceContentText p {
+  margin-left: 25px;
+  text-align: justify;
+  font-size: 15px;
+  letter-spacing: 0px;
+  line-height: 25px;
+  color: #061e37;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.feedback {
+  z-index: 2;
+}
+
+.feedback, .feedback2 {
+  background-image: url(images/backfeed.jpg);
+  min-width: 1600px;
+  width: 100%;
+  height: 565px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+}
+
+.feedback2 {
+  background-image: url(images/backfeedgreen.jpg);
+  z-index: 1;
+  height: 567px;
+}
+
+.commonInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 79px;
+}
+
+.feedbacks {
+  margin-right: 80px;
+}
+
+.commonInfo h2{
+  font-size: 45px;
+  color: #ffffff;
+  font-weight: 600;
+  width: 441px;
+  margin-top: 135px;
+}
+
+.commonInfo p{
+  width: 565px;
+  height: 37px;
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+  font-weight: 600;
+  width: 514px;
+  margin-top: 19px;
+  margin-bottom: 0;
+}
+
+.commonInfo  button{
+  width: 150px;
+  height: 55px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.15);
+  background-color: #061e37;
+  margin-top: 73px;
+}
+
+.personalFeed {
+  display: flex;
+  justify-content: space-between;
+  max-width: 763px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.personalFeed:first-of-type {
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+
+.feedName {
+  font-size: 18px;
+  line-height: 25px;
+  color: #061e37;
+  font-weight: 700;
+  margin-left: 31px;
+  margin-bottom: 20px;
+}
+
+.feedText {
+  width: 574px;
+  height: 63px;
+  font-size: 15px;
+  line-height: 25px;
+  color: #78909c;
+  font-weight: 400;
+  font-style: italic;
+   margin-left: 31px;
+   margin-top: 0;
+}
+
+.feeds {
+  max-width: 650px;
+  max-height: 160px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.15);
+  background-color: #ffffff;
+  margin-left: 31px;
+}
+
+.personalFeed img {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+
+.feedbacks {
+  display: flex;
+  flex-direction: column;
+  width: 760px;
+}
+
+.feedbackUpArrow, .feedbackDownArrow {
+  height: 14px;
+  width: 23px;
+  margin-left: 423px;
+}
+
+.feedbackUpArrow {
+  margin-top: 42px;
+
+}
+.sophie {
+  width: 203px;
+  height: 203px;
+  border-radius: 100px;
+  background-color: #ffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: #FFF;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 40px;
+}
+
+.ourTeam h2 {
+  font-size: 45px;
+  color: #061e37;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.ourTeam p {
+  width: 565px;
+  height: 37px;
+  font-size: 15px;
+  line-height: 25px;
+  color: #b0bec5;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 75px;
+}
+
+.ourTeam h3 {
+  font-size: 18px;
+  line-height: 25px;
+  color: #061e37;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.sophieText {
+  width: 662px;
+  height: 64px;
+  font-size: 15px;
+  line-height: 25px;
+  color: #90a4ae;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.teamGallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.teamIcons img {
+  width: 21px;
+  height: 21px;
+  margin: 13px;
+}
+
+.teamIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 90px;
+}
+
+.contacts {
+  height: 661px;
+  width: 100%;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacts h2 {
+  font-size: 45px;
+  color: #061e37;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contacts p {
+  width: 565px;
+  height: 37px;
+  font-size: 15px;
+  line-height: 25px;
+  color: #061e37;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+}
+
+.personalData, .message {
+  font-size: 14px;
+  line-height: 30px;
+  color: #061e37;
+  font-weight: 500;
+  padding-left: 15px;
+
+}
+
+.personalInfo {
+  width: 600px;
+  height: 60px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.personalInfo label {
+  min-width: 280px;
+  min-height: 48px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: 1px solid #061e37;
+  margin-right: 40px;
+}
+
+.personalInfo input{
+  border: none;
+  min-width: 250px;
+  min-height: 48px;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.personalInfo input:focus {
+  border: none;
+  outline: none;
+}
+
+.personalInfo:first-of-type {
+  margin-top: 50px;
+}
+
+.message {
+  min-width: 600px;
+  width: 100%;
+  height: 150px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: 1px solid #061e37;
+  padding-left: 0;
+}
+
+.subscribeButton {
+  display: flex;
+  width: 602px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.subscribeButton input {
+  font-size: 15px;
+  color: #061e37;
+  font-weight: 500;
+}
+
+.sendLabel {
+  width: 130px;
+  height: 50px;
+  border-radius: 5px;
+  filter: drop-shadow(0px 5px 5px rgba(0,0,0,0.15));
+  background-color: #1de9b6;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.subscribeButton div {
+  height: 50px;
+  align-items: center;
+  display: flex;
+}
+
+.ourTeam {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  background-color: #061e37;
+  min-height: 301px;
+}
+
+.footerUpperMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding-top: 100px;
+}
+
+.lowerMenu {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 50px;
+  align-items: flex-start;
+}
+
+.lowerNav a {
+  color: #838f9b;
+  margin-right: 45px;
+  margin-left: 0;
+  font-size: 15px;
+  line-height: 25px;
+  font-family: 'Raleway-Regular';
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.lowerNav {
+  display: inline-flex;
+  padding: 0;
+  margin: 0;
+}
+
+.lowerNav li {
+  color: #FFF;
+}
+
+.lowerNav li:first-of-type {
+  list-style-type: none;
+}
+
+@media only screen  and (max-width: 1224px) {
+
+  .offer h1 {
+    font-size: 45px;
+    margin-top: 81px;
+  }
+
+  .offer {
+    height: 380px;
+  }
+
+  .business, .downloads, .installs, .proUsers {
+    min-width: 300px;
+  }
+
+  .feeds {
+    max-width: 450px;
+  }
+
+  .feedback, .feedback2 {
+    width: 100%;
+    min-width: 1024px;
+  }
+
+  .feedText {
+    width: 420px;
+  }
+
+  .feedbackUpArrow, .feedbackDownArrow {
+    margin-left: 320px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+ .lowerNav li {
+    color: red;
+  }
+
+  .aboutUs {
+    align-items: end;
+    margin-left: 5%;
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  .offer h1 {
+    font-size: 40px;
+    margin-top: 5%;
+  }
+
+  .offer {
+    margin-bottom: 5%;
+  }
+
+  .mainPage {
+    background-size: cover;
+  }
+
+  .video {
+    margin-bottom: 5%;
+  }
+
+/*   .facts div {
+  margin-left: 40%;
+} */
+
+  .facts {
+    display: block;
+  }
+
+  .serviceInfo {
+    width: 600px;
+  }
+
+  .serviceTitle {
+    width: 600px;
+  }
+
+  .serviceContentText p {
+    line-height: 16px;
+    margin-right: 15px;
+  }
+
+  .serviceLogo {
+    margin-right: 10px;
+  }
+
+  .feed {
+    width: 600px;
+  }
+
+  .feedback, .feedback2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .commonInfo h2 {
+    font-size: 30px;
+    width: 600px;
+    margin-top: 5%;
+  }
+
+  .commonInfo p {
+    margin-top: 0;
+  }
+
+  .commonInfo button {
+    margin-top: 5%;
+  }
+
+  .personalFeed {
+    max-width: 520px;
+    margin-left: 79px;
+  }
+
+  .feedName {
+    font-size: 15px;
+    line-height: 15px;
+    margin-bottom: 0;
+  }
+
+  .feedbackUpArrow, .feedbackDownArrow {
+     margin-top: 0%;
+     margin-left: 380px;
+  }
+
+  .personalFeed:first-of-type {
+    margin-bottom: 5%;
+  }
+
+  .feedbacks {
+    margin-bottom: 5%;
+  }
+}
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+ .lowerNav li {
+    color: green;
+  }
+
+  header {
+    display: block;
+    margin-top: 5%;
+    padding-top: 0;
+  }
+
+  .navagation {
+    flex-direction: column;
+  }
+
+  .navagation a {
+    margin: 0;
+  }
+
+  button {
+    margin-top: 5%;
+    width: 180px;
+  }
+
+  .aboutUs {
+    margin-top: 5%;
+    display: block;
+  }
+
+  .offer h1 {
+    font-size: 30px;
+    margin-top: 5%;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .offer {
+    height: 100%;
+    width: 100%;
+  }
+
+  .offer p {
+    height: 100%;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 5%;
+    text-align: justify;
+  }
+
+  .offer button {
+    height: 30px;
+    margin: 5%;
+    background-color: transparent;
+    color: white;
+  }
+
+  .offer button:active, .offer button:focus {
+    height: 30px;
+    width: 165px;
+  }
+
+  video {
+    width: 250px;
+    height: 200px;
+    margin: 5%;
+  }
+
+  .video {
+    width: 250px;
+    height: 200px;
+  }
+
+  .advantages {
+    display: block;
+    width: 100%;
+  }
+
+  .advantagesTitle {
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: auto;
+    height: 250px;
+  }
+
+  .advantages h2 {
+    font-size: 30px;
+  }
+
+  .pros {
+    display: block;
+  }
+
+  .pmtext {
+    width: 100%;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .pros div {
+    display: block;
+    margin-top: 10%;
+    text-align: center;
+  }
+
+  .pros div p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .getStartedButton {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 25%;
+  }
+
+  .facts {
+    display: block;
+    width: 100%;
+  }
+
+  .facts div, .facts p{
+    margin-left: auto;
+    margin-right: 50%;
+    text-align: end;
+  }
+
+  .business, .downloads, .installs, .proUsers {
+    min-width: 100%;
+    display: block;
+  }
+
+  .services {
+    margin: 5%;
+  }
+
+  .services h2 {
+    font-size: 30px;
+    margin-top: 10%;
+  }
+
+  .services_title_text {
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    line-height: 20px;
+    color: #b0bec5;
+    margin: 5%;
+    text-align: justify;
+  }
+
+  .serviceInfo {
+    display: block;
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 385px;
+  }
+
+  .serviceTitle {
+    width: 100%;
+  }
+
+  .statisticsTitle {
+    margin-right: 35%;
+  }
+
+  .serviceLogo {
+    margin-right: 5%;
+  }
+
+  .serviceContent img {
+    margin: 5%;
+    height: 54px;
+  }
+
+  .serviceContent {
+    display: block;
+  }
+
+  .serviceContentText {
+    width: 100%;
+    margin: 0;
+  }
+
+  .serviceContentText p {
+    text-align: justify;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 5%;
+  }
+
+  .feed {
+    width: 100%;
+    margin: 0;
+  }
+
+  .feedback, .feedback2 {
+    min-width: auto;
+    display: block;
+    height: auto;
+  }
+
+  .commonInfo {
+    display: block;
+    margin: 0;
+    text-align: center;
+  }
+
+  .commonInfo h2 {
+    font-size: 30px;
+    width: auto;
+    margin: 5%;
+    padding-top: 5%;
+    text-align: center;
+  }
+
+  .commonInfo p {
+    width: auto;
+    line-height: 20px;
+    margin: 5%;
+    text-align: justify;
+  }
+
+  .commonInfo button {
+    background-color: transparent;
+    margin-top: 5%;
+  }
+
+  .feedbacks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: fit-content;
+    margin: 5%;
+    text-align: center;
+  }
+
+  .feedbackUpArrow, .feedbackDownArrow {
+    margin: 0;
+  }
+
+  .personalFeed:first-of-type {
+    margin: 5%;
+    height: auto;
+  }
+
+  .personalFeed img {
+    margin: 0;
+  }
+
+  .feeds {
+    min-width: 200px;
+    min-height: 200px;
+    margin: 0;
+  }
+
+  .feedName {
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0;
+  }
+
+  .feedText {
+    width: auto;
+    line-height: 16px;
+    margin-left: 5%;
+    text-align: justify;
+    margin-right: 5%;
+  }
+
+}
