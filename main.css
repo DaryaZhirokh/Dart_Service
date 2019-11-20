@@ -1,5 +1,4 @@
 @font-face{
-
   font-family: 'Raleway-Regular';
   src: url('fonts/Raleway-Regular.ttf');
   font-weight: normal;
@@ -65,7 +64,6 @@ header {
   color: #07293f;
 }
 
-
 button {
   font-size: 12px;
   line-height: 25px;
@@ -77,6 +75,7 @@ button {
   border-radius: 2px;
   border: 1px solid #ffffff;
 }
+
 button:active {
   border: 1px solid #ffffff;
 }
@@ -103,7 +102,6 @@ button: focus-within {
 }
 
 .offer p {
-/*   width: 591px; */
   height: 85px;
   font-size: 18px;
   line-height: 35px;
@@ -125,7 +123,6 @@ button: focus-within {
   color: #061e37;
   margin-right: 25px;
   margin-top: 1%;
-
 }
 
 .offer button:active, .offer button:focus {
@@ -149,28 +146,13 @@ button: focus-within {
 
 }
 
-.video {
-  width: 601px;
-  height: 321px;
-
-}
-
-/*
-@media all and (max-width: 1200px) {
-
-.offer h1 {
-  font-size: 40px;
-} */
-
-
-/* advantages */
-
 .advantages {
   min-height: 800px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .advantagesTitle {
@@ -989,15 +971,10 @@ footer {
     height: 200px;
   }
 
-  .video {
-    width: 250px;
-    height: 200px;
-    display: contents;
-  }
-
   .advantages {
     display: block;
     width: 100%;
+    text-align: center;
   }
 
   .advantagesTitle {
@@ -1045,15 +1022,20 @@ footer {
     width: 100%;
   }
 
-  .facts div, .facts p{
+  .facts div {
     margin-left: auto;
     margin-right: 50%;
     text-align: end;
   }
 
+  .facts p {
+    margin: 0;
+  }
+
   .business, .downloads, .installs, .proUsers {
     min-width: 100%;
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
 
   .services {
@@ -1373,7 +1355,7 @@ footer {
   }
 }
 
-@media only screen and (min-width : 480px) and (max-width : 768px) {
+@media only screen and (min-width : 480px) and (max-width : 640px) {
   .lowerNav li {
     color: orange;
   }
@@ -1444,15 +1426,10 @@ footer {
     height: 200px;
   }
 
-  .video {
-    width: 250px;
-    height: 200px;
-    display: contents;
-  }
-
   .advantages {
     display: block;
     width: 100%;
+    text-align: center;
   }
 
   .advantagesTitle {
@@ -1500,15 +1477,19 @@ footer {
     width: 100%;
   }
 
-  .facts div, .facts p{
+  .facts div {
     margin-left: auto;
     margin-right: 50%;
     text-align: end;
   }
 
+  .facts p {
+    margin: 0;
+  }
   .business, .downloads, .installs, .proUsers {
     min-width: 100%;
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
 
   .services {
@@ -1827,3 +1808,1008 @@ footer {
     width: 100%;
   }
 }
+
+@media only screen and (min-width : 640px) and (max-width : 768px) {
+  .lowerNav li {
+    color: purple;
+  }
+
+  .mainPage {
+    text-align: center;
+    width: 100%;
+    margin-top: -30px;
+  }
+
+    header {
+    display: block;
+    margin-top: 5%;
+    padding-top: 0;
+  }
+
+  .navagation {
+    flex-direction: initial;
+    min-width: auto;
+    width: auto;
+  }
+
+  .signButton {
+    text-align: end;
+   }
+
+  .signButton button{
+    height: 30px;
+    background-color: transparent;
+    color: white;
+    line-height: 15px;
+    font-size: 15px;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.15);
+    width: 128px;
+    border-radius: 5px;
+  }
+
+  .navagation a {
+    margin: 0;
+  }
+
+  button {
+    margin-top: 5%;
+    width: 180px;
+  }
+
+  .aboutUs {
+    margin-top: 5%;
+    display: block;
+    text-align: center;
+  }
+
+  .offer h1 {
+    font-size: 35px;
+    margin-top: 0;
+    line-height: 35px;
+    text-align: center;
+  }
+
+  .offer {
+    width: auto;
+    height: auto;
+    align-items: center;
+  }
+
+  .offer p {
+    height: 100%;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 5%;
+    text-align: justify;
+  }
+
+  .offer button {
+    height: 30px;
+    margin: 5%;
+    background-color: transparent;
+    color: white;
+    line-height: 11px;
+    font-size: 10px;
+  }
+
+  .offer button:active, .offer button:focus {
+    height: 30px;
+    width: 165px;
+  }
+
+  video {
+    width: 550px;
+    height: 300px;
+  }
+
+  .advantages {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .advantagesTitle {
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: auto;
+    height: 250px;
+  }
+
+  .advantages h2 {
+    font-size: 30px;
+  }
+
+  .pros {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pmtext {
+    width: 100%;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .pros div {
+    display: block;
+    margin-top: 5%;
+    text-align: center;
+  }
+
+  .pros div p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .getStartedButton {
+   margin: 5%;
+  }
+
+  .facts {
+    display: block;
+    width: 100%;
+  }
+
+  .facts p {
+    margin: 0;
+  }
+
+  .business, .downloads, .installs, .proUsers {
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .services {
+    margin: 5%;
+  }
+
+  .services h2 {
+    font-size: 30px;
+    margin-top: 10%;
+  }
+
+  .services_title_text {
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    line-height: 20px;
+    color: #b0bec5;
+    margin: 5%;
+    text-align: justify;
+  }
+
+  .serviceInfo {
+    display: block;
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 385px;
+  }
+
+  .serviceTitle {
+    width: 100%;
+  }
+
+  .statisticsTitle {
+    justify-content: space-between;
+    margin-right: 70%;
+  }
+
+  .serviceLogo {
+    margin-right: 5%;
+  }
+
+  .serviceContent img {
+    margin: 5%;
+    height: 54px;
+  }
+
+  .serviceContent {
+    display: block;
+  }
+
+  .serviceContentText {
+    width: 100%;
+    margin: 0;
+  }
+
+  .serviceContentText p {
+    text-align: justify;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 5%;
+  }
+
+  .feed {
+    width: 100%;
+    margin: 0;
+  }
+
+  .feedback, .feedback2 {
+    min-width: auto;
+    display: block;
+    height: auto;
+  }
+
+  .commonInfo {
+    display: block;
+    margin: 0;
+    text-align: center;
+  }
+
+  .commonInfo h2 {
+    font-size: 30px;
+    width: auto;
+    margin: 5%;
+    padding-top: 5%;
+    text-align: center;
+  }
+
+  .commonInfo p {
+    text-align: center;
+    margin: 0;
+    width: auto;
+  }
+
+  .commonInfo button {
+    background-color: transparent;
+    margin-top: 5%;
+  }
+
+  .feedbacks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: fit-content;
+    margin: 5%;
+    text-align: center;
+  }
+
+  .feedbackUpArrow, .feedbackDownArrow {
+    margin: 0;
+  }
+
+  .personalFeed:first-of-type {
+    margin: 5%;
+    height: auto;
+  }
+
+  .personalFeed img {
+    margin: 0;
+  }
+
+  .feeds {
+    min-width: auto;
+    min-height: 120px;
+    margin: 0;
+    width: 500px;
+  }
+
+  .feedName {
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0;
+  }
+
+  .feedText {
+    width: auto;
+    line-height: 16px;
+    margin-left: 5%;
+    text-align: justify;
+    margin-right: 5%;
+  }
+
+  .feedbackUpArrow, .feedbackDownArrow {
+    margin-bottom: 5%;
+  }
+
+  .ourTeam h2 {
+    font-size: 30px;
+    margin-top: 5%;
+    margin-bottom: 0;
+  }
+
+  .ourTeam p {
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: justify;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .ourTeam {
+    margin: 5%;
+  }
+
+  .teamGallery {
+    display: flex;
+  }
+
+  .sophie {
+    margin: 5%;
+    width: 245px
+  }
+
+  .sophie img{
+    border-radius: 125px;
+  }
+
+  .ourTeam h3 {
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 5%;
+    margin-bottom: 0;
+  }
+
+  .contacts {
+    height: 100%;
+    width: 100%;
+    background-color: #fafafa;
+    display: block;
+  }
+
+  .contacts h2 {
+    font-size: 30px;
+    margin-bottom: 0;
+    padding-top: 5%;
+  }
+
+  .contacts p {
+    width: auto;
+    height: auto;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: justify;
+    margin: 5%;
+  }
+
+  .personalInfo {
+    width: 250px;
+    height: 60px;
+    display: inline;
+    margin: 0;
+  }
+
+  .personalInfo input {
+    border: 1px solid #061e37;;
+    min-width: auto;
+    min-height: auto;
+    margin: 0;
+    margin-bottom: 5%;
+    width: 235px;
+    margin-left: 5%;
+  }
+
+  .personalInfo:first-of-type {
+    margin: 0;
+    margin-bottom: 11%;
+  }
+
+  .personalInfo label {
+    min-width: auto;
+    min-height: auto;
+    border: none;
+    margin: 0;
+    background-color: transparent;
+  }
+
+  .message {
+    min-width: auto;
+    margin-top: 11%;
+    height: auto;
+    width: 230px;
+    margin-left: 3%;
+    padding-left: 5%;
+  }
+
+  .messageLabel {
+    min-width: auto;
+    min-height: auto;
+    border: none;
+    margin: 0;
+    background-color: transparent;
+  }
+
+  .subscribeButton {
+    display: block;
+    width: auto;
+    margin: 5%;
+    text-align: center;
+    padding-bottom: 5%;
+  }
+
+  .subscribeButton div {
+    justify-content: center;
+    height: auto;
+  }
+
+  .subscribeButton input {
+    margin: 0;
+  }
+
+  .footerUpperMenu {
+    display: block;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-top: 5%;
+  }
+
+  .footerNavagation {
+    display: block;
+  }
+
+  .footerNavagation a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 1%;
+  }
+
+  .lowerMenu {
+    display: flex;
+    align-items: baseline;
+    margin-top: 0;
+    margin-left: 8%;
+  }
+
+  .lowerNav a {
+    margin-right: 10%;
+    line-height: 20px;
+    width: 100%;
+    margin: 0;
+  }
+
+  .lowerNav li:first-of-type {
+    list-style-type: disc;
+  }
+
+  .lowerNav li{
+    width: 100%;
+  }
+
+  .teamIcons {
+    margin-top: 10%;
+  }
+
+  .lowerNav {
+    display: block;
+    padding: 0;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .message {
+    min-width: auto;
+    margin-top: 0;
+    height: 100px;
+    width: 518px;
+    margin-left: 5%;
+    padding-left: 3%;
+  }
+
+  .footerNavagation a:first-of-type {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+  .lowerNav li {
+    color: pink;
+  }
+
+  .logoTitle {
+    font-size: 15px;
+    line-height: 15px;
+    text-align: left;
+  }
+
+  .mainPage {
+    text-align: center;
+    width: 100%;
+    margin-top: -30px;
+    min-height: 800px;
+    background-size: cover;
+  }
+
+    header {
+    display: flex;
+    margin-top: 5%;
+    padding-top: 0;
+    align-items: baseline;
+  }
+
+  .navagation {
+    min-width: 300px;
+  }
+
+  .signButton button{
+    height: 25px;
+    width: 80px;
+    border-radius: 5px;
+  }
+
+  .navagation a {
+    margin: 0;
+  }
+
+  button {
+    margin-top: 5%;
+    width: 180px;
+  }
+
+  .aboutUs {
+    margin-top: 5%;
+    display: block;
+    text-align: center;
+  }
+
+  .offer h1 {
+    font-size: 55px;
+    line-height: 65px;
+  }
+
+  .offer {
+    width: auto;
+    height: auto;
+    align-items: center;
+  }
+
+  .offer p {
+    font-size: 18px;
+    line-height: 35px;
+    margin: 0;
+    margin-bottom: 5%;
+  }
+
+  .offer button {
+    width: 160px;
+    height: 55px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.15);
+    background-color: #ffffff;
+    color: #061e37;
+    margin-right: 25px;
+    margin-top: 1%;
+  }
+
+  .offer button:active, .offer button:focus {
+    width: 150px;
+    height: 55px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.15);
+    background-color: #061e37;
+    color: #ffffff;
+    border-color: #061e37;
+    outline: none;
+  }
+
+  video {
+    width: 550px;
+    height: 300px;
+    margin-top: 5%;
+  }
+
+  .advantages {
+    display: block;
+    width: 100%;
+    text-align: center;
+    min-height: auto;
+  }
+
+  .advantagesTitle {
+    height: auto;
+    min-width: auto;
+    width: auto;
+  }
+
+  .advantages h2 {
+    font-size: 30px;
+  }
+
+  .pros {
+   flex-direction: initial;
+  }
+
+  .pmtext {
+    width: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .pros div {
+    display: block;
+    max-height: none;
+    margin-top: 0;
+  }
+
+  .pros div p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .getStartedButton {
+   margin: 5%;
+  }
+
+  .facts {
+    display: flex;
+    width: 100%;
+  }
+
+  .facts p {
+    margin: 0;
+  }
+
+  .business, .downloads, .installs, .proUsers {
+    min-width: auto;
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+  }
+
+  .services {
+    margin: 5%;
+  }
+
+  .services h2 {
+    font-size: 30px;
+    margin-top: 10%;
+  }
+
+  .services_title_text {
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    line-height: 20px;
+    color: #b0bec5;
+    margin: 5%;
+    text-align: justify;
+  }
+
+  .serviceInfo {
+    display: block;
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 385px;
+  }
+
+  .serviceTitle {
+    width: 100%;
+  }
+
+  .statisticsTitle {
+    justify-content: space-between;
+    margin-right: 70%;
+  }
+
+  .serviceLogo {
+    margin-right: 5%;
+  }
+
+  .serviceContent img {
+    margin: 5%;
+    height: 54px;
+  }
+
+  .serviceContent {
+    display: block;
+  }
+
+  .serviceContentText {
+    width: 100%;
+    margin: 0;
+  }
+
+  .serviceContentText p {
+    text-align: justify;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 5%;
+  }
+
+  .feed {
+    width: 100%;
+    margin: 0;
+  }
+
+  .feedback, .feedback2 {
+    min-width: auto;
+    display: block;
+    height: auto;
+  }
+
+  .commonInfo {
+    display: block;
+    margin: 0;
+    text-align: center;
+  }
+
+  .commonInfo h2 {
+    font-size: 30px;
+    width: auto;
+    margin: 5%;
+    padding-top: 5%;
+    text-align: center;
+  }
+
+  .commonInfo p {
+    text-align: center;
+    margin: 0;
+    width: auto;
+  }
+
+  .commonInfo button {
+    background-color: transparent;
+    margin-top: 5%;
+  }
+
+  .feedbacks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: fit-content;
+    margin: 5%;
+    text-align: center;
+  }
+
+  .feedbackUpArrow, .feedbackDownArrow {
+    margin: 0;
+  }
+
+  .personalFeed:first-of-type {
+    margin: 5%;
+    height: auto;
+  }
+
+  .personalFeed img {
+    margin: 0;
+  }
+
+  .feeds {
+    min-width: auto;
+    min-height: 120px;
+    margin: 0;
+    width: 500px;
+  }
+
+  .feedName {
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0;
+  }
+
+  .feedText {
+    width: auto;
+    line-height: 16px;
+    margin-left: 5%;
+    text-align: justify;
+    margin-right: 5%;
+  }
+
+  .feedbackUpArrow, .feedbackDownArrow {
+    margin-bottom: 5%;
+  }
+
+  .ourTeam h2 {
+    font-size: 30px;
+    margin-top: 5%;
+    margin-bottom: 0;
+  }
+
+  .ourTeam p {
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: justify;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .ourTeam {
+    margin: 5%;
+  }
+
+  .teamGallery {
+    display: flex;
+  }
+
+  .teamIcons {
+    margin-top: 5%;
+    margin-bottom: 0;
+  }
+
+  .sophie {
+    margin: 5%;
+    width: 250px;
+  }
+
+  .sophie img{
+    -webkit-border-radius: 75px;
+            border-radius: 75px;
+  }
+
+  .ourTeam h3 {
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 5%;
+    margin-bottom: 0;
+  }
+
+  .contacts {
+    height: 100%;
+    width: 100%;
+    background-color: #fafafa;
+    display: block;
+  }
+
+  .contacts form {
+    text-align: center;
+  }
+
+  .contacts h2 {
+    font-size: 30px;
+    margin-bottom: 0;
+    padding-top: 5%;
+  }
+
+  .contacts p {
+    width: auto;
+    height: auto;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: justify;
+    margin: 5%;
+  }
+
+  .personalInfo {
+    width: 250px;
+    height: 60px;
+    display: inline;
+    margin: 0;
+  }
+
+  .personalInfo input {
+    border: 1px solid #061e37;;
+    min-width: auto;
+    min-height: auto;
+    margin: 0;
+    margin-bottom: 5%;
+    width: 300px;
+    margin-left: 5%;
+  }
+
+  .personalInfo:first-of-type {
+    margin: 0;
+    margin-bottom: 11%;
+  }
+
+  .personalInfo label {
+    min-width: auto;
+    min-height: auto;
+    border: none;
+    margin: 0;
+    background-color: transparent;
+  }
+
+  .message {
+    min-width: auto;
+    margin-top: 11%;
+    height: auto;
+    width: 651px!important;
+    margin-left: 3%;
+    padding-left: 5%;
+  }
+
+  .messageLabel {
+    min-width: auto;
+    min-height: auto;
+    border: none;
+    margin: 0;
+    background-color: transparent;
+  }
+
+  .subscribeButton {
+    display: block;
+    width: auto;
+    margin: 5%;
+    text-align: center;
+    padding-bottom: 5%;
+  }
+
+  .subscribeButton div {
+    justify-content: center;
+    height: auto;
+  }
+
+  .subscribeButton input {
+    margin: 0;
+  }
+
+  .footerUpperMenu {
+    display: block;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-top: 5%;
+  }
+
+  .footerNavagation {
+    display: block;
+  }
+
+  .footerNavagation a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 1%;
+  }
+
+  .lowerMenu {
+    display: flex;
+    align-items: baseline;
+    margin-top: 0;
+    margin-left: 8%;
+  }
+
+  .lowerNav a {
+    margin-right: 10%;
+    line-height: 20px;
+    width: 100%;
+    margin: 0;
+  }
+
+  .lowerNav li:first-of-type {
+    list-style-type: disc;
+  }
+
+  .lowerNav li{
+    width: 100%;
+  }
+
+  .teamIcons {
+    margin-top: 10%;
+  }
+
+  .lowerNav {
+    display: block;
+    padding: 0;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .message {
+    min-width: auto;
+    margin-top: 0;
+    height: 100px;
+    width: 518px;
+    margin-left: 5%;
+    padding-left: 3%;
+  }
+
+  .footerNavagation a:first-of-type {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+
+
+
+}
+
+
+
